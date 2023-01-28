@@ -29,6 +29,10 @@
 
 
         <!-- stylesheet end -->
+      
+
+      <!-- You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time.-->  
+      <script src= "https://cdn.jsdelivr.net/npm/moment@2.29.3/moment.min.js">  </script>
 
         
         
@@ -44,12 +48,13 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead"> date: </p>
     </header>
 <!-- ---------------------------  header end ------------------------------------------------------ -->
 
 
 <!-- --------------------------- daily calendar tmetable ------------------------------------------ --> 
+
     <main class=" container  main-container">   <!-- main content holder -->
               <!-- Timeblocks go here -->
             <div class="row">
@@ -131,7 +136,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> <!-- jquery from Google CDN for faster downloading (sourced from server closest to user)-->
-
+    <script src="./assets/JS/scheduler.js"></script>
 
     <!-- check if below can be removed without harm to starter code-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
