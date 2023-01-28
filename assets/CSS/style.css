@@ -44,8 +44,9 @@ body {
 .time-block {
   
   text-align: center;
-  border-radius: 15px;
-  /* testpoint background - remopve later */ 
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+    /* testpoint background - remove later */ 
   background-color: beige;  
 
 }
@@ -68,10 +69,7 @@ body {
 
 textarea {
   background-color: aliceblue; 
-  width:100%;
-  
-
-
+  width:100%; 
   /* background: transparent; 
   border: none; */
   resize: none;
