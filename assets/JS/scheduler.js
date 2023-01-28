@@ -33,7 +33,26 @@ var scheduleTime = $(this).attr("id")
         
 });
 
-// 
+// ------------------ save button function ------------------------ //
+
+
+
+/* 
+$(".saveBtn").click(function(saveEvent){
+    saveEvent.preventDefault();
+    var textValue =$(this)
+    var timeValue = $(this).
+
+    localStorage.setItem(timeValue,textValue);
+
+    console.log(textValue)
+    console.log(timeValue)
+
+
+}); */
+
+
+
 
 
 

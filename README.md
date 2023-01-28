@@ -24,6 +24,8 @@ siSimple calendar application that allows a user to save events for each hour of
 https://www.jsdelivr.com/package/npm/moment ( https://momentjs.com/docs/#/displaying/ )
 
 https://jquery.com/ - jQuery is provided under the MIT license.
+https://www.w3schools.com/jquery/event_click.asp
+
    
 
 

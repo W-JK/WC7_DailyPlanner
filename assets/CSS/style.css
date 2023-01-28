@@ -70,8 +70,8 @@ body {
 textarea {
   background-color: aliceblue; 
   width:100%; 
-  /* background: transparent; 
-  border: none; */
+  background: transparent; 
+  /* border: none; */
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -104,8 +104,8 @@ textarea {
 
 .saveBtn i:hover {
   cursor: pointer;  /* pointer added */
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
 
 }
 
