@@ -10,56 +10,27 @@ console.log(todayDate) // test point
 
 
 var currentTime = moment().hour()
-console.log (currentTime) //test point: time of the day(hour)
-
-function timeTracker() {
-
-
-}
+//console.log (currentTime) //test point: time of the day(hour)
 
 
 
+$("textarea").each(function () {    //  textarea .event-descryption  .time-block   (may need change)
+var scheduleTime = $(this).attr("id")
+            console.log(scheduleTime) // test point - schedule by hrs
+        
+            if (scheduleTime == currentTime){
+                $(this).addClass("present");
+            }
 
+            else if (scheduleTime > currentTime){
+                $(this).addClass("future");
+            }
 
-
-
-
-
-
-    
-       
-       
-
-
-
-/*
-
-$(".time-block").each( function() {
-    if (currentTime = $ (label.dataset ["number"]) ) {                // 
-       
-       console.log(currentTime)
-
-       $(this).addClass("present");
-       //note: if txt color change is required:-  (this).children(".textcolor").addClass("color-textu");
-    }
-
-
-})
-
-
-
-
-
-$ ("#textarea").change(classToApply(){
-      
-
-
-});  */
-
-
-
-
- // const classToApply = currentTime ? "past" : "future";        "present" 
+            else if (scheduleTime < currentTime){
+                $(this).addClass("past"); // ".descryption"
+            }       
+        
+});
 
 
 
@@ -68,5 +39,6 @@ $ ("#textarea").change(classToApply(){
 
 
 
-// moment().hour(Number); or moment().hour(); - get or set date 
-// moment().hours(Number); or moment().hours(); 
+
+
+
