@@ -5,7 +5,7 @@
 // Current date and time --------------------------------------------------------------
 var todayDate = moment().format('LLLL');                  // note: default - display in local time - for certain zones use moment()UTC.format('LLLL'); or use other timezone (GMT)
 $("#currentDay").html(todayDate);
-console.log(todayDate) // test point
+// test point: console.log(todayDate) 
 
 
 //---------------------------- time dependant txt area color change ---------------------------------------
@@ -16,7 +16,7 @@ var currentTime = moment().hour()
 
 
 
-$("textarea").each(function () {    //  textarea .event-descryption  .time-block   (may need change)
+$("textarea").each(function () {    
 var scheduleTime = $(this).attr("id")
             // console.log(scheduleTime) // test point - schedule by hrs
         
@@ -29,7 +29,7 @@ var scheduleTime = $(this).attr("id")
             }
 
             else if (scheduleTime < currentTime){
-                $(this).addClass("past"); // ".descryption"
+                $(this).addClass("past"); 
             }       
         
 });
@@ -51,6 +51,8 @@ $(document).ready(function(){
     
     // ------------------- return values from local storage ----------- // 
     // test poiint:  $("#8").val(localStorage.getItem("8"));   
+    
+
     $("#9").val(localStorage.getItem("9"));
     $("#10").val(localStorage.getItem("10"));
     $("#11").val(localStorage.getItem("11"));
@@ -61,24 +63,12 @@ $(document).ready(function(){
     $("#16").val(localStorage.getItem("16"));
     $("#17").val(localStorage.getItem("17"));   
 
-  
-
-
 });
 
 
 
 
-       
-        // localStorage.setItem("scheduleEvent",JSON.stringify([]));
-        // console.log(JSON.parse(localStorage.getItem("SheduleEvent")));
 
-/*     $("textarea .descryption").each(function(eventTime,eventText) {
-        console.log("get")
-        localStorage.getItem(".descryption");
-    });
-
-    */
 
 
 
