@@ -17,11 +17,9 @@ same application using different style to improve/shorten the code.
 
 This source code is available to everyone under the standard MIT license.
 
-This project is available under below link: 
+This project is available under below link: https://w-jk.github.io/WC7_DailyPlanner/
 
-Code can be accesset also on Git Hub from the below repository:
-
-
+Code can be accesset also on Git Hub from the below repository: https://github.com/W-JK/WC7_DailyPlanner.git
 
 
 <!-- ![markdown screenshot "live image"](./assets/) -- will be added during scheduled working hrs -->
