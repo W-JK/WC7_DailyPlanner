@@ -59,16 +59,21 @@
               <!-- Timeblocks go here -->
 
               <div class="row">
-                <div class="time-block hour col " > 8 am </div> <!-- test -->
-                <textarea class="col-10 " id ="8">Add Event your here  </textarea>
-                <button type="submit" class="saveBtn col " id="saveEventBtn" disabled > <i class="fa fa-github">  </i> Test  </button> <!-- Use fa-regular for empty fa-solid for saved -->
+                <div class="time-block hour col "  > 8 am </div> <!-- test -->
+                <textarea class="descryption col-10 " id ="8"> Add Event your here  </textarea>
+                <button 
+                type="submit" 
+                class="saveBtn col " 
+                id="saveEventBtn" 
+                onclick="saveEvent(event)" 
+               > <i class="fa fa-github">  </i> Test  </button> <!-- Use fa-regular for empty fa-solid for saved -->
               </div>
 
 
             <div class="row">
               <div class="time-block hour col" > 9 am </div>
               <textarea class="descryption col-10 " id ="9"> </textarea>
-              <button class="saveBtn col "> <i class="fa-regular fa-floppy-disk">  </i> Save  </button> <!-- Use fa-regular for empty fa-solid for saved -->
+              <button type="submit" class="saveBtn col " id="saveEventBtn" onclick="saveEvent(event)" > <i class="fa-regular fa-floppy-disk">  </i> Save  </button> <!-- Use fa-regular for empty fa-solid for saved -->
             </div>
 
             <div class="row">              
