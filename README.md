@@ -19,7 +19,7 @@ This source code is available to everyone under the standard MIT license.
 
 This project is available under below link: https://w-jk.github.io/WC7_DailyPlanner/
 
-Code can be accesset also on Git Hub from the below repository: https://github.com/W-JK/WC7_DailyPlanner.git
+Code can also be accessed also on Git Hub from the below repository: https://github.com/W-JK/WC7_DailyPlanner.git
 
 
  ![markdown screenshot "live image"](./assets/Work%20Day%20Schedule2.png.png) 
